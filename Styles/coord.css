@@ -1,0 +1,24 @@
+body { padding-left: 1rem;
+    background: linear-gradient(90deg, rgb(174, 216, 4), rgb(225, 237, 179));
+}
+.spiskoord {
+    align-content: center;
+}
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {display: inline-block; 
+    background-color: rgb(125, 134, 123);}
+
+    
+.frame{ 
+    display: inline-block;
+    margin: 5px, auto;
+    padding: 12px 10px 3px 3px;
+    border: 10px dashed blue;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.spiskoordt{ /* font-family: "Victoriana"; */
+    font-size: large;
+}
