@@ -16,12 +16,12 @@ $("#viklbut").on("click", function () {
    
    document.getElementById("ozera").remove();  
 
-   document.getElementById("chzan").remove();  
+   // document.getElementById("chzan").remove();  
 
    // document.getElementById("oglavn1").remove();
    // document.getElementById("oglavn2").remove();
    // document.getElementById("rubai1").remove();
 
-   document.getElementById("zaviruh1").remove();
+   // document.getElementById("zaviruh1").remove();
 });
         

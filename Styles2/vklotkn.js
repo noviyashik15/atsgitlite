@@ -32,8 +32,8 @@ $("#vklbut").on("click", function () {
    var newButton14 = $('<input/>').attr({ type: "button", id: "ozera", class: "btn btn-primary", target: "_blank",
    onclick:"location.href = 'https://noviyashik15.github.io/progrcraig/index.html'", value: "Плитвицкие озёра" });
 
-   var newButton15 = $('<input/>').attr({ type: "button", id: "сhzan", class: "btn btn-primary", target: "_blank",
-   onclick:"location.href = 'https://noviyashik50285.github.io/podgrlazy/index.html'", value: "Чжанцзяцзе" });
+  //  var newButton25 = $('<input/>').attr({ type: "button", id: "сhzan", class: "btn btn-primary", target: "_blank",
+  //  onclick:"location.href = 'https://noviyashik50285.github.io/podgrlazy/index.html'", value: "Чжанцзяцзе" });
 
   //  var newButton08 = $('<input/>').attr({ type: "button", id: "oglavn1", class: "btn btn-primary", target: "_blank", 
   //  onclick:"location.href = 'extend/schetchik/schetchik.html'", value: "О главном 1" });
@@ -42,8 +42,8 @@ $("#vklbut").on("click", function () {
   //  var newButton10 = $('<input/>').attr({ type: "button", id: "rubai1", class: "btn btn-primary", target: "_blank", 
   //  onclick:"location.href = 'extend/omargrid/omargrid.html'", value: "Рубаи" });
    
-   var newButton07 = $('<input/>').attr({ type: "button", id: "zaviruh1", class: "btn btn-primary", target: "_blank", 
-   onclick:"location.href = 'https://noviyashik15.github.io/zaviruht/'", value: "Завируха" });
+  //  var newButton27 = $('<input/>').attr({ type: "button", id: "zaviruh1", class: "btn btn-primary", target: "_blank", 
+  //  onclick:"location.href = 'https://noviyashik15.github.io/zaviruht/'", value: "Завируха" });
 
      $("#zdes").append(newButton01);
      $("#zdes").append(newButton02);
@@ -60,11 +60,11 @@ $("#vklbut").on("click", function () {
 
      $("#zdes").append(newButton14);
 
-     $("#zdes").append(newButton15);
+    //  $("#zdes").append(newButton25);
      
     //  $("#zdes").append(newButton08);
     //  $("#zdes").append(newButton09);
     //  $("#zdes").append(newButton10);
 
-     $("#zdes").append(newButton07); 
+    //  $("#zdes").append(newButton27); 
 });
