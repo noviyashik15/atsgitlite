@@ -6,218 +6,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Andrey"> <meta name="Copyright" content="GAA">
     <title>ЗАО НПП "АТС"</title>
-    <link href="MyStyles/granimjs.css" rel="stylesheet" />
+    <link rel="stylesheet" href="MyStyles/granimjs.css"/>
     <link rel="stylesheet" href="MyStyles/normalize.css">
     <link rel="stylesheet" href="MyStyles/mystyle.css">
     <link rel="stylesheet" href="MyStyles/mynewstyle.css">
     <link rel="icon" type="Images/x-icon" href="Images/atsicon.ico"/>   
 </head>
-<body>
-    <canvas id="canvas-basic"></canvas>
-    <header class="header">
-        <div class="container">
-            <nav class="header__nav">
-                <ul class="menu">
+<body>  <!-- <canvas id="canvas-basic"></canvas> -->
+<header class="header">
+<div class="container">
+    <nav class="header__nav">
+        <ul class="menu">
 
-                    <li class="menu__item">
-                        <button class="menu__button">Главная</button>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="Styles/homepage.html">Домашняя страница</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="myindex.html">Информация о нас</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="Styles/company.html">Наши партнёры</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="Styles/coord.html">Наши координаты</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="Styles/technic.html">Технические характеристики</a>
-                            </li>
-                        </ul>
+            <li class="menu__item">
+                <button class="menu__button">Главная</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/homepage.html">Домашняя страница</a>
                     </li>
-
-                    <li class="menu__item">
-                      <button class="menu__button">Галерея&nbspA</button>
-                      <ul class="dropdown-menu">
-                          <li class="dropdown-menu__item">
-                              <a class="dropdown-menu__link" href="Styles/galera1.html">Галерея&nbsp№1</a>
-                          </li>
-                          <li class="dropdown-menu__item">
-                              <a class="dropdown-menu__link" href="Styles/galera2.html">Галерея&nbsp№2</a>
-                          </li>
-                          <li class="dropdown-menu__item">
-                              <a class="dropdown-menu__link" href="Styles/galera3.html">Галерея&nbsp№3</a>
-                          </li>
-                      </ul>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="myindex.html">Информация о нас</a>
                     </li>
-
-                <li class="menu__item">
-                    <button class="menu__button">Галерея&nbspC</button>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-menu__item">
-                            <a class="dropdown-menu__link" href="Styles/galeru1.html">Галерея&nbsp№1</a>
-                        </li>
-                        <li class="dropdown-menu__item">
-                            <a class="dropdown-menu__link" href="Styles/galeru2.html">Галерея&nbsp№2</a>
-                        </li>
-                        <li class="dropdown-menu__item">
-                            <a class="dropdown-menu__link" href="Styles/galeru3.html">Галерея&nbsp№3</a>
-                        </li>
-                    </ul>
-                </li>
-
-                    <li class="menu__item">
-                        <button class="menu__button">Галерея&nbspD</button>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="Styles/galerw1.html">Галерея&nbsp№1</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="Styles/galerw2.html">Галерея&nbsp№2</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="Styles/galerw3.html">Галерея&nbsp№3</a>
-                            </li>
-                        </ul>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/company.html">Наши партнёры</a>
                     </li>
-
-                    <li class="menu__item">
-                        <button class="menu__button">Галерея&nbspE</button>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="../extend/galerye/galexe1.html">Галерея&nbsp№1</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="../extend/galerye/galexe2.html">Галерея&nbsp№2</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="../extend/galerye/galexe3.html">Галерея&nbsp№3</a>
-                            </li>
-                        </ul>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/coord.html">Наши координаты</a>
                     </li>
-
-                    <li class="menu__item">
-                        <button class="menu__button">Музыка</button>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/gitmusic11//index.html">Багамы</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/dubmexkr/index.html">Джумейра</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/infpanel/index.html">Пирамида Хеопса</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashik15.github.io/animpanm14/index.html">Австралия</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashik15.github.io/animpanm15/index.html">Какаду</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/gitmusic18/index.html">Острова Общества</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashik50285.github.io/gitmusic19/index.html">Потёмкин</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashik15.github.io/gitmusic20/index.html">Мушкетёры</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/fotviezd21/index.html">Острова 2</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/ostr3ova22/index.html">Острова 3</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://noviyashik15.github.io/rimimp23/index.html">Римская империя</a>
-                            </li>
-                            <li class="dropdown-menu__item">
-                                <a class="dropdown-menu__link" href="https://orion4log.github.io/chudesa24/index.html">Чудеса света</a>
-                            </li>
-                        </ul>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/technic.html">Технические характеристики</a>
                     </li>
-
                 </ul>
-            </nav>
-        </div>
-    </header>
+            </li>
+
+            <li class="menu__item">
+                <button class="menu__button">Галерея&nbspA</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/galera1.html">Галерея&nbsp№1</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/galera2.html">Галерея&nbsp№2</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/galera3.html">Галерея&nbsp№3</a>
+                    </li>
+                </ul>
+            </li>
+
+        <li class="menu__item">
+            <button class="menu__button">Галерея&nbspC</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-menu__item">
+                    <a class="dropdown-menu__link" href="Styles/galeru1.html">Галерея&nbsp№1</a>
+                </li>
+                <li class="dropdown-menu__item">
+                    <a class="dropdown-menu__link" href="Styles/galeru2.html">Галерея&nbsp№2</a>
+                </li>
+                <li class="dropdown-menu__item">
+                    <a class="dropdown-menu__link" href="Styles/galeru3.html">Галерея&nbsp№3</a>
+                </li>
+            </ul>
+        </li>
+
+            <li class="menu__item">
+                <button class="menu__button">Галерея&nbspD</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/galerw1.html">Галерея&nbsp№1</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/galerw2.html">Галерея&nbsp№2</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="Styles/galerw3.html">Галерея&nbsp№3</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- <li class="menu__item">
+                <button class="menu__button">Галерея&nbspE</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="galerye/galexe1.html">Галерея&nbsp№1</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="galerye/galexe2.html">Галерея&nbsp№2</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="galerye/galexe3.html">Галерея&nbsp№3</a>
+                    </li>
+                </ul>
+            </li> -->
+
+            <li class="menu__item">
+                <button class="menu__button">Музыка</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/gitmusic11//index.html">Багамы</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/dubmexkr/index.html">Джумейра</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/infpanel/index.html">Пирамида Хеопса</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/animpanm14/index.html">Австралия</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/animpanm15/index.html">Какаду</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/gitmusic18/index.html">Острова Общества</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik50285.github.io/gitmusic19/index.html">Потёмкин</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/gitmusic20/index.html">Мушкетёры</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/fotviezd21/index.html">Острова 2</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/ostr3ova22/index.html">Острова 3</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/rimimp23/index.html">Римская империя</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://orion4log.github.io/chudesa24/index.html">Чудеса света</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu__item">
+                <button class="menu__button">Разное</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik50285.github.io/linekirib/index.html">Острова Лайн</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/plavotkrit/index.html">Вели́кие географи́ческие откры́тия</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashic50285.github.io/greenland/index.html">Гренландия</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/fullpgscr/index.html">Острова</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/krasasync/index.html">Муреа Милфорд</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik50285.github.io/podgruzpic/index.html">Дубай</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/progrcraig/index.html">Плитвицкие озёра</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/davidwalsh/index.html">Маврикий</a>
+                    </li>
+                    <li class="dropdown-menu__item">
+                        <a class="dropdown-menu__link" href="https://noviyashik15.github.io/infinauto/index.html">Каньо-Кристалес</a>
+                    </li>
+                </ul>
+            </li>
+<span class="viborfona">
+    <input type="color" id="colorInputColor">
+    <input type="button" id="colorButton" value="Выберите фон для чтения" onclick="changeColor()">
+</span>      
+        </ul>
+    </nav>
+</div>
+</header>
 
     <div id="top"></div>  
 <div class="kras">
-      <h1>ЗАО НПП "АТС"</h1>  
-      <p>
-        Научно-производственное предприятие «Аппаратура для телевидения и связи»
-        (НПП «АТС») является разработчиком и изготовителем антенн для систем
-        спутниковой связи при работе через искуственные спутники Земли (ИСЗ).
-      </p>
-      <p>
-        Кроме того, НПП «АТС» по требованию Заказчика адаптирует существующие
-        антенны к условиям работы с любым из указанных спутников.
-      </p>
-      <p>
-        При этом модернизация существующих антенн может касаться не только
-        металлоконструкций ОПУ (опорно-поворотного устройства) и приводов, но и,
-        при необходимости, увеличения диаметра зеркал.
-      </p>
-      <p>
-        НПП «АТС» разрабатывает и изготавливает антенны, к которым
-        предъявляются специфические требования, например, по транспортабельности и
-        времени сборки антенного поста, или по обеспечению работы станции на
-        подвижном объекте.
-      </p>
-      <p>
-        Антенны позволяют работать станциям в «С» и «Ku» диапазонах частот и при
-        необходимости оснащаются системой автосопровождения за квазистационарным
-        спутником, а также системой антиобледенения.
-      </p>
-      <p>
-        Производственные возможности НПП «АТС» позволяют изготавливать серийно
-        антенны (шифр ТНА) диаметром: 0,7 м; 0,9 м; 1,2 м; 1,66 м; 1,8 м; 2 м; 3,5
-        м; 4,8 м; 6 м; 7 м; 9 м; 12 м; 16 м. Антенны сертифицированы в России.
-      </p>
-      <p>
-        НПП «АТС» изготавливает системы антиобледенения для всех антенн типа
-        ТНА, а также доукомплектовывает такими системами имеющиеся у Заказчика
-        антенны.
-      </p>
-      <p>
-        Антенны используются в корпоративных сетях отечественных и зарубежных
-        операторов, а также в Государственных телекоммуникационных сетях,
-        например, Федерального Государственного унитарного предприятия
-        «Космическая связь».
-      </p>
-      <p>
-        Предприятие является разработчиком и изготовителем полноповоротных антенн
-        для систем связи при работе через ИСЗ.
-      </p>
-      <p>
-        Угловые скорости антенн обеспечивают работу станции при слежении за
-        низкоорбитальными ИСЗ и другими объектами с высокими угловыми скоростями.
-      </p>
-      <p>
-        Для исключения мёртвой зоны двухосных полноповоротных антенн в конструкцию
-        ОПУ вводится дополнительная третья ось.
-      </p>
-      <p>
-        Антенны позволяют работать станциям в «S», «С», «Х», «Ku» и «Ка»
-        диапазонах частот и при необходимости могут работать одновременно в
-        указанных диапазонах частот.
-      </p>
-      <p>
-        Антенны работают в автоматическом режиме автосопровождения ИСЗ с помощью
-        электронного сканера, в программном режиме, а также в комбинированном
-        режиме слежения за объектом.
-      </p>
-      <p>
-        Антенны выполняются в стационарном и (или) перевозимом (транспортируемом)
-        вариантах.
-      </p>
-      <p>Конструкция антенны может быть адаптирована к требованиям Заказчика.</p>  
+<h1>ЗАО НПП "АТС"</h1>  
+<p>
+Научно-производственное предприятие «Аппаратура для телевидения и связи»
+(НПП «АТС») является разработчиком и изготовителем антенн для систем
+спутниковой связи при работе через искуственные спутники Земли (ИСЗ).
+</p>
+<p>
+Кроме того, НПП «АТС» по требованию Заказчика адаптирует существующие
+антенны к условиям работы с любым из указанных спутников.
+</p>
+<p>
+При этом модернизация существующих антенн может касаться не только
+металлоконструкций ОПУ (опорно-поворотного устройства) и приводов, но и,
+при необходимости, увеличения диаметра зеркал.
+</p>
+<p>
+НПП «АТС» разрабатывает и изготавливает антенны, к которым
+предъявляются специфические требования, например, по транспортабельности и
+времени сборки антенного поста, или по обеспечению работы станции на
+подвижном объекте.
+</p>
+<p>
+Антенны позволяют работать станциям в «С» и «Ku» диапазонах частот и при
+необходимости оснащаются системой автосопровождения за квазистационарным
+спутником, а также системой антиобледенения.
+</p>
+<p>
+Производственные возможности НПП «АТС» позволяют изготавливать серийно
+антенны (шифр ТНА) диаметром: 0,7 м; 0,9 м; 1,2 м; 1,66 м; 1,8 м; 2 м; 3,5
+м; 4,8 м; 6 м; 7 м; 9 м; 12 м; 16 м. Антенны сертифицированы в России.
+</p>
+<p>
+НПП «АТС» изготавливает системы антиобледенения для всех антенн типа
+ТНА, а также доукомплектовывает такими системами имеющиеся у Заказчика
+антенны.
+</p>
+<p>
+Антенны используются в корпоративных сетях отечественных и зарубежных
+операторов, а также в Государственных телекоммуникационных сетях,
+например, Федерального Государственного унитарного предприятия
+«Космическая связь».
+</p>
+<p>
+Предприятие является разработчиком и изготовителем полноповоротных антенн
+для систем связи при работе через ИСЗ.
+</p>
+<p>
+Угловые скорости антенн обеспечивают работу станции при слежении за
+низкоорбитальными ИСЗ и другими объектами с высокими угловыми скоростями.
+</p>
+<p>
+Для исключения мёртвой зоны двухосных полноповоротных антенн в конструкцию
+ОПУ вводится дополнительная третья ось.
+</p>
+<p>
+Антенны позволяют работать станциям в «S», «С», «Х», «Ku» и «Ка»
+диапазонах частот и при необходимости могут работать одновременно в
+указанных диапазонах частот.
+</p>
+<p>
+Антенны работают в автоматическом режиме автосопровождения ИСЗ с помощью
+электронного сканера, в программном режиме, а также в комбинированном
+режиме слежения за объектом.
+</p>
+<p>
+Антенны выполняются в стационарном и (или) перевозимом (транспортируемом)
+вариантах.
+</p>
+<p>Конструкция антенны может быть адаптирована к требованиям Заказчика.</p>  
 
 <div class="vir">
     <a id="bottom" href="#top">Вверх</a>
@@ -237,8 +272,17 @@ anchor.addEventListener("click", function(event) {
 })
 }
 </script>
-      <script src="../extend/irogr/granim.min.js"></script>
-      <script src="../extend/irogr/granimjs.js"></script>
-    <script defer src="MyStyles/myindex.js"></script>
+<script src="../extend/irogr/granim.min.js"></script>
+<script src="../extend/irogr/granimjs.js"></script>
+<script defer src="MyStyles/myindex.js"></script>
+
+<script>
+function changeColor(){
+let color = document.getElementById('colorInputColor').value;
+document.body.style.background = color;
+document.getElementById('colorInputText').value = color;
+}
+</script>        
+        
 </div>
 </html>
